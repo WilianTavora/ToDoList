@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Roboto&family=Sofia&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width:100%;
+    height: 100vh;
+}
+header{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.title{
+    font-family: "Rajdhani";
+}
+.container{
+    background-color:#d2d4d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container .content{
+    display: block;
+    background-color: #FDFDFD;
+    height: 85%;
+    width: 20%;
+    padding: 1rem;
+    border-radius: .8rem;
+    box-shadow: 3px 3px 10px #888888;
+}
+.container .content .content-box1{
+    display: flex;
+    justify-content: center;
+}
+.container .content .content-box2{
+    display: flex;
+    justify-content: center;
+}
+.container .content .content-box3{
+    display: flex;
+    justify-content: center;
+}
+/* SHADOW IN THE BOXS */
+.shadow-box{
+    list-style: none;
+    box-shadow: 3px 3px 10px #888888;
+    width: 6rem;
+    height: 6rem;
+}
+.icon-box{
+    padding-bottom: 1rem;
+}
+.box-title{
+    padding-bottom: 0.2rem;
+    font-family: "Sofia";
+}
+/* STYLING ALL BOX WITH HOVER */
+
+.container .content .shadow-box{
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.container .content .shadow-box:hover{
+    background-color: #B1B3CF;
+}
+
+/* AGORA VAMOS DAR FORMA CADA BOX */
+.all-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.study-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.buy-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.travel-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.home-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.work-box{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.box-title{
+    font-size: 10pt;
+}
+.task{
+    font-size: 6pt;
+}
+
+/* STYLING THE BUTTON */
+
+.content-btn{
+    position: absolute;
+    left: 43rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.content-btn .add-btn{
+    padding: 0 .4rem;
+    font-size: 20pt;
+    border-radius: 50%;
+    border: 0;
+    background-color: #5886FF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+}
+.content-btn .add-btn:hover{
+    background-color: #4070f5;
+}
+
+/* STYLING THE SECOND PAGE OF CREATE LIST */
+
+.container .content2{
+    display: none;
+    background-color: #5886FF;
+    height: 85%;
+    width: 20%;
+    border-radius: .8rem;
+}
+.container .content2 .content2-icon{
+    margin: 1em;
+}
+.container .content2 .content2-icon i{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Estilizando contetn 2 */
+
+.content2 .content2-all-task{
+    display: none;
+    height: 29.5%;
+}
+.content2 .content2-study{
+    display: none;
+    height: 29.5%;
+}
+.content2 .content2-buy{
+    display: none;
+    height: 29.5%;
+}
+.content2 .content2-travel{
+    display: none;
+    height: 29.5%;
+}
+.content2 .content2-home{
+    display: none;
+    height: 29.5%;
+}
+.content2 .content2-work{
+    display: none;
+    height: 29.5%;
+}
+.boxs{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+/* SHADOW IN THE BOXS */
+.icon-box2{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: #5886FF;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.title-box2{
+    padding-top: 1rem;
+}
+.icon-box2 i{
+    position: relative;
+    top: .5rem;
+}
+.box-title2{
+    padding-bottom: 0.2rem;
+    font-family: "Sofia";
+}
+.box-title2{
+    font-size: 20pt;
+    color: #FFFFFF;
+}
+.task2{
+    font-size: 8pt;
+    color: #FFFFFF;
+}
+.content2 .list-item{
+    background-color: #FFFFFF;
+    height: 60%;
+    border-radius: .9rem;
+}
+
+.content2 .shadow-item{
+    box-shadow: 3px 3px 10px #888888;
+}
+.content2 .listallitem{
+    padding-top: 1rem;
+    margin-left: .1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content2 .listofitem{
+    list-style: none;
+}
+.content2 .listofitem h5{
+    font-size: 10pt;
+}
+.content2 .listofitem span{
+    font-size: 8pt;
+}
+/* BUTTONS IN THE LIST OF ITENS */
+
+.content-btn2{
+    position: absolute;
+    left: 43rem;
+    bottom: 4rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.content-btn2 .add-btn2{
+    padding: 0 .4rem;
+    font-size: 20pt;
+    border-radius: 50%;
+    border: 0;
+    background-color: #5886FF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+}
+.content-btn2 .add-btn2:hover{
+    background-color: #4070f5;
+}
+
+/* STYLING THIRD PAGE */
+
+.container .content3{
+    display: none;
+    background-color: #F2F2F2;
+    height: 85%;
+    width: 20%;
+    border-radius: .8rem;
+    box-shadow: 3px 3px 10px #888888;
+}
+.container .content3 .content3-icon{
+    margin: 1rem;
+}
+.container .content3 .content3-icon i{
+    color: #5886FF;
+    cursor: pointer;
+}
+.content3 .content-title3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title3{
+    font-family: "Rajdhani";
+}
+.content3 .content-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.content3 .content-title-task{
+    color: #a7abb2;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .2rem;
+}
+.title-task{
+    font-family: "Sofia";
+}
+.content3 .content-text .text-area{
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.616);
+    outline: 0;
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Roboto";
+}
+
+.content3 .content-date{
+    display: flex;
+    align-items: center;
+}
+.content3 i{
+    margin: 0 .5rem;
+    font-size: 1.2rem;
+}
+.content3 .content-date .date{
+    font-size: 10pt;
+    font-family: "Rajdhani";
+}
+.content3 .content-select{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.content3 .content-select .list-category{
+    border: none;
+    outline: 0;
+    font-family: "Rajdhani";
+    background-color: #F2F2F2;
+}
+.content3 .content-select option{
+    font-family: "Rajdhani";
+    background-color: #F2F2F2;
+}
+.content3 .content-btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content3 .content-btn3 .btncreat{
+    width: 100%;
+    height: 2rem;
+    outline: 0;
+    border: none;
+    background-color: #5985FF;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #F2F2F2;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+.content3 .content-btn3 .btncreat:hover{
+    background-color: #183bf9;
+}
+
+
+
+
+
+@media (max-width: 412px){
+    body{
+        overflow: hidden;
+        
+    }
+    .title{
+        font-family: "Rajdhani";
+        font-size: 60pt;
+        font-weight: 900;
+    }
+    .container .content{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .container .content2{
+        height: 100%;
+        width: 100%;
+    }
+    .content2 .list-item {
+        height: 65%;
+    }
+    .content2 .listallitem {
+        margin-left: -2.9rem;
+    }
+    .container .content2 .icon-box2{
+        width: 5.5em;
+        height: 5.5em;
+    }
+    .container .content2 section i,
+    .container .content2 section h3{
+        font-size: 35pt;
+    }
+    .container .content2 section p{
+        font-size: 20pt;
+    }
+    .container .content3{
+        height: 100%;
+        width: 100%;
+    }
+    .container .content .shadow-box{
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .container .content .content-all-box i, .container .content .content-all-box h3{
+        font-size: 35pt;
+    }
+    .container .content .content-all-box p{
+        font-size: 20pt;
+    }
+    .content-btn .add-btn {
+        position: relative;
+        padding: 0 0.40000000000000036rem;
+        font-size: 30pt;
+        border-radius: 50%;
+        border: 0;
+        background-color: #5886FF;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: normal;
+        transition: all .3s ease-in-out;
+        right: 10em;
+        bottom: -0.6em;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .content3 .content-btn3 .btncreat{
+        margin-top: 5em;
+    }
+
+
+}
